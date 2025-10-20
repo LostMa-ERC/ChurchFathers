@@ -1,0 +1,33 @@
+## Configuration file for a Bayes-Yule experiment
+
+# Setup for the generator
+generator:
+  name: YuleBDAbundance
+  config:
+    n_init: 1
+    Nino: 1200
+    Nact: 5000 # = Nino + Ndiff
+    Ninact: 1000
+    max_pop: 5000000
+
+# Summary statistics that will be given as input to the inference
+stats: 
+  name: "Abundance"
+  config:
+    additional_stats: True
+
+# Prior distribution for the parameters
+prior:
+  # TODO : Pouvoir faire en sorte que n'importe quel distribution déjà existante dans Pytorch puisse être renseigné ici
+  name: "HybridConstrainedUniform3D"
+  config:
+    low: [0, 0.0, 0.0]
+    high: [2.0, 0.05, 0.05]
+
+
+# Set up for the inference backend
+inference:
+  name: SBI # "SBI"
+  config:
+    posterior_path: "posteriors/hybridBD/posterior.pkl"
+    num_samples : 200
