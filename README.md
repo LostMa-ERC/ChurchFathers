@@ -4,7 +4,7 @@ This repository is associated with the paper "Transmission and Survival of Iberi
 
 This project contains the data, experimental notebooks (Jupyter Notebooks), and results used for the analysis presented in the aforementioned paper. The primary goal is to study the transmission and survival of Iberian patristic texts using computational methods.
 
-## Repository Structure
+### Repository Structure
 
 The repository is organized as follows:
 
@@ -17,7 +17,15 @@ The repository is organized as follows:
   - `config_church_fathers.yml`: Configuration used to generate the posterior in posteriors/hybridBD.
   - `config_church_fathers_pretrained.yml`: Configuration file using pre-trained models.
 
-## Acknowledgements
+### Dependencies
+
+The following packages are required to run the two notebooks :
+
+  - simMAtree : `pip install git+https://github.com/LostMa-ERC/simMAtree.git`
+  - copia : `pip install copia`
+  - openpyxl : `pip install openpyxl`
+
+### Acknowledgements
 
 Funded by the European Union (ERC, LostMA, 101117408). 
 Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council. 
