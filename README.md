@@ -19,11 +19,22 @@ The repository is organized as follows:
 
 ### Dependencies
 
-The following packages are required to run the two notebooks :
+The code necessitates `python <3.13,>=3.11` and the dependencies can be installed
+ in a virtual environment of you choice, by doing:
 
-  - simMAtree : `pip install git+https://github.com/LostMa-ERC/simMAtree.git`
-  - copia : `pip install copia`
-  - openpyxl : `pip install openpyxl`
+```bash
+# Optional: using virtual env
+python3.12 -m venv env
+source env/bin/activate
+# install
+pip install -r requirements.txt
+```
+
+The notebooks can then be run with:
+
+```bash
+jupyter lab
+```
 
 ### Acknowledgements
 
