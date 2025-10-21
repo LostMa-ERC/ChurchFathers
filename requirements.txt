@@ -1,0 +1,4 @@
+simMAtree @ git+https://github.com/LostMa-ERC/simMAtree.git@v0.2
+copia==0.1.4
+openpyxl==3.1.5
+jupyterlab==4.4.9
