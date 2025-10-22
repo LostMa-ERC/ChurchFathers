@@ -1,4 +1,8 @@
+# Transmission and Survival of Iberian Patristic Texts - Experiments
+
 This repository is associated with the paper "Transmission and Survival of Iberian Patristic Texts," published in the CHR 2025 conference.
+
+Authors: Emilie Guidi, Théo Moins, Jean Baptiste Camps
 
 ## About This Project
 
